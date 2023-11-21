@@ -1,9 +1,20 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "games": [
+    {
+      "id": 1,
+      "image": "/assets/images/league-of-legends.jpg",
+      "title": "League of Legends",
+      "genre": "MOBA",
+      "description": "League of Legends is a multiplayer online battle arena (MOBA) game in which the player controls a character ('champion') with a set of unique abilities from an isometric perspective. As of 2023, there are over 160 champions available to play.",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/league-of-legends.jpg",
+      "title": "League of Legends",
+      "genre": "MOBA",
+      "description": "League of Legends is a multiplayer online battle arena (MOBA) game in which the player controls a character ('champion') with a set of unique abilities from an isometric perspective. As of 2023, there are over 160 champions available to play.",
+      "rating": 5
+    }
+  ]
 }

@@ -6,16 +6,42 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/reset.css">
     <link rel="stylesheet" href="/styles.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8b8da463c7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <title>CRUD</title>
 </head>
 <body>
-    <h1>
-        Hello World
-    </h1>
-    <img src="/assets/images/cat.jpeg" alt="" width="300">
-
-
+    <h1 class="header">Games to enjoy</h1>
+    <div class="games">
+        <div class="card-wrapper js-card-wrapper"></div>
+        <form class="input-wrapper js-input-form">
+            <h1 class="input__heading">Add a new game</h1>
+            <label for="title">What is the game called?</label>
+            <input type="text" id="title" class="input" placeholder="Title" required>
+            <label for="title">What genre is the game?</label>
+            <input type="text" id="genre" class="input" placeholder="Genre" required>
+            <label for="title">Describe the game in your own words.</label>
+            <textarea type="text" id="description" class="input input__textarea" placeholder="Description" required></textarea>
+            <label for="star1">Rate the game</label>
+            <div class="input__rating js-input-rating">
+                <input type="radio" id="star5" name="rating" value="5" class="js-star-rating"/>
+                <label class="star" for="star5" title="Awesome" aria-hidden="true"></label>
+                <input type="radio" id="star4" name="rating" value="4" class="js-star-rating"/>
+                <label class="star" for="star4" title="Great" aria-hidden="true"></label>
+                <input type="radio" id="star3" name="rating" value="3" class="js-star-rating"/>
+                <label class="star" for="star3" title="Very good" aria-hidden="true"></label>
+                <input type="radio" id="star2" name="rating" value="2" class="js-star-rating"/>
+                <label class="star" for="star2" title="Good" aria-hidden="true"></label>
+                <input type="radio" id="star1" name="rating" value="1" class="js-star-rating"/>
+                <label class="star" for="star1" title="Bad" aria-hidden="true"></label>
+            </div>
+            <button class="input__button js-input-button" type="submit">Add game</button>
+        </form>
+    </div>
     <script src="/scripts.js"></script>
 </body>
 </html>
