@@ -17,22 +17,27 @@ body {
   display: flex;
   gap: 30px;
   border-radius: 10px;
-  align-items: center;
   margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
+
 .card{
   display: flex;
   gap: 10px;
   flex-direction: column;
-  max-width: 400px;
   border: 3px solid rgb(236, 106, 0);
   border-radius: 10px;
   align-items: center;
   background-color: rgb(19, 34, 78);
   padding: 20px 20px;
+  max-width: 600px;
 }
+
 .card__image{
   border-radius: 10px;
+  aspect-ratio: 16/9;
+  width: 400px;
 }
 
 .card__title{
@@ -50,8 +55,18 @@ body {
 }
 
 .card__rating{
-
+  display: flex;
+  color: rgb(236, 106, 0);
+  gap: 10px;
+  font-size: 35px;
 }
+
+.rating__star{
+  content: '\f005';
+  color: rgb(236, 106, 0);
+  font-family: 'FontAwesome';
+}
+
 .card__buttons{
   display: flex;
   gap: 10px;
@@ -87,6 +102,22 @@ body {
     }
 }
 
+.buttons__save{
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  background-color: rgb(236, 106, 0);
+  color: rgb(19, 34, 78);
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+    &:hover{
+      background-color: rgb(228, 139, 67);
+    }
+}
+
+// Input field css
+
 .input-wrapper{
   display: flex;
   flex-direction: column;
@@ -105,6 +136,20 @@ body {
 }
 
 .input{
+  display: flex;
+  flex-grow: 1;
+  border-radius: 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: rgb(143, 171, 255);
+  color: black;
+  width: 100%;
+  &::placeholder {
+    color: black;
+  }
+}
+
+.edit-mode{
   display: flex;
   flex-grow: 1;
   border-radius: 5px;

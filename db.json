@@ -4,17 +4,36 @@
       "id": 1,
       "image": "/assets/images/league-of-legends.jpg",
       "title": "League of Legends",
-      "genre": "MOBA",
+      "genre": "Multiplayer Online Battle Arena",
       "description": "League of Legends is a multiplayer online battle arena (MOBA) game in which the player controls a character ('champion') with a set of unique abilities from an isometric perspective. As of 2023, there are over 160 champions available to play.",
-      "rating": 5
+      "rating": 5,
+      "creationTime": 1700651301872
     },
     {
       "id": 2,
-      "image": "/assets/images/league-of-legends.jpg",
-      "title": "League of Legends",
-      "genre": "MOBA",
-      "description": "League of Legends is a multiplayer online battle arena (MOBA) game in which the player controls a character ('champion') with a set of unique abilities from an isometric perspective. As of 2023, there are over 160 champions available to play.",
-      "rating": 5
+      "image": "/assets/images/apex-legends.jpg",
+      "title": "Apex Legends",
+      "genre": "Battle royale",
+      "description": "Apex Legends is an online multiplayer battle royale game featuring squads of three players using pre-made characters with distinctive abilities, called 'Legends', similar to those of hero shooters. Alternate modes have been introduced allowing for single and for two-player squads since the game's release.",
+      "rating": 5,
+      "creationTime": 1700658302872
+    },
+    {
+      "title": "God of War",
+      "image": "/assets/images/god-of-war.jpg",
+      "genre": "Action-adventure, hack and slash",
+      "description": "In God of War, players control Kratos, a Spartan warrior who is sent by the Greek gods to kill Ares, the god of war. As the story progresses, Kratos is revealed to be Ares' former servant, who had been tricked into killing his own family and is haunted by terrible nightmares.",
+      "rating": "5",
+      "creationTime": 1700659668220,
+      "id": 3
+    },
+    {
+      "title": "fgh",
+      "genre": "fgh",
+      "description": "fgh",
+      "rating": "3",
+      "creationTime": 1700681462509,
+      "id": 4
     }
   ]
 }
