@@ -15,7 +15,7 @@
       "title": "Apex Legends",
       "genre": "Battle royale",
       "description": "Apex Legends is an online multiplayer battle royale game featuring squads of three players using pre-made characters with distinctive abilities, called 'Legends', similar to those of hero shooters. Alternate modes have been introduced allowing for single and for two-player squads since the game's release.",
-      "rating": 5,
+      "rating": "5",
       "creationTime": 1700658302872
     },
     {
@@ -28,11 +28,11 @@
       "id": 3
     },
     {
-      "title": "fgh",
-      "genre": "fgh",
-      "description": "fgh",
-      "rating": "3",
-      "creationTime": 1700681462509,
+      "title": "Counter-strike 2 on steam",
+      "genre": "First Person Shooter",
+      "description": "Counter-Strike 2 features major technical improvements over Global Offensive, including a move from the Source game engine to Source 2, improved graphics and ",
+      "rating": "5",
+      "creationTime": 1700750469935,
       "id": 4
     }
   ]
